@@ -1,0 +1,184 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #97cc8b, #2d3a2f);
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    font-family: raleway;
+    text-align: center;
+}   
+.container{
+    margin-top: 100px;
+}
+
+.skills {
+    font-size: 40px;
+    border: 8px solid black;
+    display: inline;
+    padding: 15px 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.using {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.using h1 {
+    padding-top: 30px;
+    font-size: 28px;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+}
+
+.using-img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 40px 60px;
+    justify-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.using-img div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.using-img img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.using-img img:hover {
+    transform: scale(1.2);
+}
+
+.using-img h3 {
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+
+
+.learning {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.learning h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+}
+
+.learning>div {
+    display: inline-block;
+    margin: 0 50px;
+    text-align: center;
+}
+
+.learning img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.learning img:hover {
+    transform: scale(1.1);
+}
+
+.learning h3 {
+    margin-top: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+
+
+.other-skills {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.other-skills h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+}
+
+.other-skills>div {
+    display: inline-block;
+    margin: 20px 30px;
+    text-align: center;
+}
+
+.other-skills img {
+
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.other-skills img:hover {
+    transform: scale(1.1);
+}
+
+.other-skills h3 {
+    margin-top: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: #222;
+}
+
+.bio {
+    width: 75px;
+    height: 110px;
+    transform: translateY(5px);
+}
+
+.sport {
+    width: 120px;
+    height: 120px;
+    transform: translateY(10px);
+
+}
+
+.div-sport {
+    transform: translateX(-10px);
+}
+
+.eng {
+    width: 70px;
+    height: 70px;
+}
+
+
+.a{
+    text-decoration: none;
+    text-align: center;
+}
+.a button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding: 20px 50px;
+    font-weight: bolder;
+    margin: 100px;
+}
