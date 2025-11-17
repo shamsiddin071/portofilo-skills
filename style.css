@@ -2,12 +2,10 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: linear-gradient(135deg, #97cc8b, #2d3a2f);
-    /* background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
+    background: linear-gradient(135deg, #7e566b, #2b1721);
     font-family: raleway;
     text-align: center;
+    color: #f2ebe2e8 !important;
 }   
 .container{
     margin-top: 100px;
@@ -181,4 +179,6 @@ body {
     padding: 20px 50px;
     font-weight: bolder;
     margin: 100px;
+    cursor: pointer;
+    color: #f2ebe2e8;
 }
